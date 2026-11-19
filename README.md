@@ -22,7 +22,7 @@ Contiene solo las páginas públicas que Google y la Chrome Web Store piden para
 index.html        página de inicio
 privacidad.html   política de privacidad
 style.css         estilos (modo claro y oscuro)
-icon-128.png      icono de la extensión
+logo.png          logo de la extensión (256 px, generado con tools/generate-icons.mjs)
 ```
 
 Se publica con GitHub Pages en `flavio6931.github.io/correo-rapido/`.
