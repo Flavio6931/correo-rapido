@@ -59,12 +59,18 @@
       <h2>Cómo se guardan</h2>
       <ul>
         <li>
-          Los correos <strong>no se guardan</strong>. Se descargan de Google al abrir el popup y se descartan
-          al cerrarlo.
+          El contenido completo de los correos <strong>no se guarda</strong>: se descarga de Google al abrir un
+          correo y se descarta al cerrarlo.
         </li>
         <li>
-          El token de acceso se guarda en el almacenamiento de sesión del navegador, que se borra al cerrar
-          el navegador o al pulsar "Salir".
+          Para no repetir peticiones a Google, la lista de resultados (durante 1 minuto) y el resumen de cada
+          correo de la lista (remitente, destinatarios, asunto, fecha y fragmento, durante 5 minutos) se
+          guardan <strong>temporalmente en la memoria de sesión del navegador</strong>. Nunca se escriben en el
+          disco y se borran al cerrar el navegador, al cerrar sesión o al pulsar "Actualizar".
+        </li>
+        <li>
+          El token de acceso se guarda en esa misma memoria de sesión, que se borra al cerrar el navegador o al
+          cerrar sesión.
         </li>
         <li>
           No existe ningún servidor de Correo Rápido: la comunicación es directa entre tu navegador y Google.
@@ -95,7 +101,7 @@
 
       <h2>Cómo retirar el acceso</h2>
       <ul>
-        <li>Pulsa <strong>Salir</strong> en el popup: se borra el token y se revoca en Google.</li>
+        <li>Pulsa <strong>Cerrar sesión</strong> en el popup: se borran el token y la caché, y el permiso se revoca en Google.</li>
         <li>
           También puedes quitar el acceso desde
           <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.
