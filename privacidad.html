@@ -13,7 +13,7 @@
         <img src="logo.png" alt="" />
         <h1>Política de privacidad</h1>
       </header>
-      <p class="lead">Correo Rápido · Última actualización: 8 de noviembre de 2026</p>
+      <p class="lead">Correo Rápido · Última actualización: 19 de noviembre de 2026</p>
 
       <p>
         Correo Rápido es una extensión para navegador que muestra tus correos de Gmail en un popup.
@@ -31,17 +31,30 @@
           y para el enlace "Abrir en Gmail".
         </li>
         <li>
+          <strong>Tu nombre y tu foto de perfil de Google</strong> (solo si das ese permiso), para mostrar en el
+          popup con qué cuenta has iniciado sesión. No se guardan.
+        </li>
+        <li>
+          <strong>Los archivos adjuntos</strong>, solo cuando pulsas el botón de descarga: el archivo pasa de
+          Google directamente a la carpeta de descargas de tu equipo.
+        </li>
+        <li>
           <strong>Un token de acceso de Google</strong>, que Google entrega al iniciar sesión y que permite a la
           extensión leer tus correos durante una hora como máximo.
         </li>
       </ul>
 
-      <h2>Permiso de Google que solicita</h2>
-      <p>
-        La extensión pide un único permiso: <code>https://www.googleapis.com/auth/gmail.readonly</code>
-        (ver tus mensajes de correo electrónico). Es de <strong>solo lectura</strong>: Correo Rápido no puede
-        modificar, borrar, mover ni enviar correos.
-      </p>
+      <h2>Permisos de Google que solicita</h2>
+      <ul>
+        <li>
+          <code>https://www.googleapis.com/auth/gmail.readonly</code> (ver tus mensajes de correo electrónico).
+          Es de <strong>solo lectura</strong>: Correo Rápido no puede modificar, borrar, mover ni enviar correos.
+        </li>
+        <li>
+          <code>https://www.googleapis.com/auth/userinfo.profile</code> (ver tu nombre y foto de perfil).
+          Es <strong>opcional</strong>: si no lo das, la extensión muestra tus iniciales en lugar de la foto.
+        </li>
+      </ul>
 
       <h2>Cómo se guardan</h2>
       <ul>
